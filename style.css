@@ -163,7 +163,11 @@
     display: flex;
     justify-content: center;
 }
-
+.whyChooseUS{
+    text-align: left;
+    line-height: 2em;
+    
+}
 .client-box{
     background-color: white;
     max-width: 50%;
@@ -223,10 +227,16 @@ footer{
 }
 
 @media screen and (max-width:320px){
+    .header_title{
+        font-size: 2rem;
+    }
+    .header_title>span{
+        font-size: 1.5rem;
+    }
     .text1{
         color:white;
         position:absolute;
-        top:55%;
+        top:5%;
         left:35%;
         background: #E86460;
         padding:.5%;
@@ -237,7 +247,7 @@ footer{
     .text2{
         color:white;
         position:absolute;
-        top:65%;
+        top:35%;
         left:17%;
         background-color: black;
         opacity: .6;
@@ -247,12 +257,77 @@ footer{
     }
     .section4-flex{
         flex-direction: column;
-        margin:0%;
+        margin:20px auto;
         font-size: .5rem;
+        text-align: center;
+    }
+    .whyChooseUS{
+        text-align: center;   
+        margin-top: 100px;
+    }
+    .section5-flex{
+        flex-direction: column;
+        
+    }
+    
+    .footer{
+        display: flex;
+        flex-direction: column;
+        font-size: .5rem;
+        width: 100%;
+    }
+    .our-clients{
+        width: 100%;
+        text-align: center;
+    }
+    .progresscurve{
+        text-align: left;
+    }
+    .card-img-top{
+        height:260px;
+    }
+}
+@media screen and (max-width:480px){
+    .header_title{
+        font-size: 2rem;
+    }
+    .header_title>span{
+        font-size: 1.5rem;
+    }
+    .text1{
+        color:white;
+        position:absolute;
+        top:210px;
+        left:35%;
+        background: #E86460;
+        padding:.5%;
+        font-size: 1rem;
+        font-weight: 900;
+        border-radius: 20px;
+    }
+    .text2{
+        color:white;
+        position:absolute;
+        top:245px;
+        left:17%;
+        background-color: black;
+        opacity: .6;
+        padding:1%;
+        font-size: .5rem;
+        border-radius: 20px;
+    }
+    .section4-flex{
+        flex-direction: column;
+        margin:20px auto;
+        font-size: .5rem;
+        text-align: center;
+    }
+    .section4-flex>div{
         text-align: center;
     }
     .section5-flex{
         flex-direction: column;
+        margin: auto;
     }
     .footer{
         display: flex;
@@ -262,54 +337,10 @@ footer{
     }
     .our-clients{
         width: 100%;
+        text-align: center;
     }
     .progresscurve{
         text-align: left;
     }
     
-}
-@media screen and (max-width:480px){
-    .text1{
-        color:white;
-        position:absolute;
-        top:55%;
-        left:35%;
-        background: #E86460;
-        padding:.5%;
-        font-size: 1rem;
-        font-weight: 900;
-        border-radius: 20px;
-    }
-    .text2{
-        color:white;
-        position:absolute;
-        top:65%;
-        left:17%;
-        background-color: black;
-        opacity: .6;
-        padding:1%;
-        font-size: .5rem;
-        border-radius: 20px;
-    }
-    .section4-flex{
-        flex-direction: column;
-        margin:0%;
-        font-size: .5rem;
-        text-align: center;
-    }
-    .section5-flex{
-        flex-direction: column;
-    }
-    .footer{
-        display: flex;
-        flex-direction: column;
-        font-size: .5rem;
-        width: 100%;
-    }
-    .our-clients{
-        width: 100%;
-    }
-    .progresscurve{
-        text-align: left;
-    }
 }
